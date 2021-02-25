@@ -1,0 +1,547 @@
+body {
+    position: relative;
+}
+
+.dropdown-toggle {
+    font-size: 25px;
+    font-family:Arial Black, sans-serif;
+    color: black;
+}
+.VideosAuto {
+    font-size: 25px; 
+    font-family:Arial Black, sans-serif;
+    color: black;
+}
+.Dep{
+    font-family:Arial black, sans-serif;
+}
+.Ans{
+    font-family:Arial black, sans-serif;
+}
+.TB{
+    font-family:Arial black, sans-serif;
+}
+.PS{
+    font-family:Arial black, sans-serif;
+}
+.FL{
+    font-family:Arial black, sans-serif;
+}
+.Com{
+    font-family:Arial black, sans-serif;
+}
+.Hos{
+    font-family:Arial black, sans-serif;
+}
+.um {
+    font-size: 20px;
+    font-family:Comic Sans MS, sans-serif;
+    text-align: left;
+}
+h1{
+    font-size: 30px; 
+    color: black; 
+    text-align: center;
+    font-family:Arial Black, sans-serif;
+}
+.dois{
+    font-size: 20px;
+    font-family:Comic Sans MS, sans-serif;
+}
+.tres{
+    font-size: 17px; 
+    font-family:Comic Sans MS, sans-serif;
+    text-align: justify;
+}
+.mer{
+    font-family:Arial black, sans-serif;
+}
+.quatro{
+    font-size: 25px;
+    font-family:Comic Sans MS, sans-serif;
+    text-align: center;
+}
+.cinco{
+    font-size: 17px;
+    font-family:Comic Sans MS, sans-serif;
+    text-align: justify;
+}
+.seis{
+    font-size: 17px; 
+    font-family:Comic Sans MS, sans-serif; 
+    text-align: center;
+}
+#coment {
+    padding-top: 55px;
+    min-height: auto;
+    height:100%; 
+    min-width: 5px;
+    width: 100%;
+}
+.sete{
+    font-size: 17px;
+    font-family:Comic Sans MS, sans-serif; 
+    text-align: center;
+}
+h2{
+    font-size: 30px;
+    color: red;
+    text-align: center;
+    font-family:Comic Sans MS, sans-serif;
+}
+#patrocinio{
+   padding-top: 55px;
+    min-height: auto;
+    height:100%; 
+    min-width: 5px;
+    width: 100%;
+    background-color: white;
+}
+
+.oito{
+    font-size: 20px;
+    font-family:Comic Sans MS, sans-serif; 
+    text-align: center;
+}
+.nove{
+    font-size: 15px;
+    font-family:Arial black, sans-serif; 
+    text-align: justify;
+}
+
+.dez{
+    border: 5px solid #F48804;
+    border-radius: 0;
+    -webkit-appearance: none;
+}
+
+.onze{
+    border: 5px solid #FF8000;
+    border-radius: 25px;
+    border-bottom-width: thick;
+    -webkit-appearance: none;
+    color: black;
+    min-width: inherit;
+}
+
+.treze{
+    background-color: orange;
+}
+
+.quinze{
+    color: white;
+    padding-top: 30px;
+}
+
+.dezesseis{
+    overflow:auto;
+}
+
+/*@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}*/
+
+#qualidade{
+    background-color: black;
+    padding-top: 55px;
+}
+
+.dezessete{
+    font-size: 15px;
+    font-family:Arial black, sans-serif; 
+    text-align: center;
+    background-image: url(carro111.jpg);
+    color: white;
+}
+
+#historia{
+    background-color: black;
+}
+
+.dezoito{
+    color: white;
+    text-align: center;
+    font-family:Arial black, sans-serif;
+}
+
+.vinte{
+    color: white;
+}
+
+#fotosdois{
+    background-image: url(carro3333.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 55px;
+}
+
+#videostres{
+    background-image: url(paisagem2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 55px;
+}
+
+.titulo{
+    color: black;
+}
+
+#fale{
+    background-image: url(paisagem.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 55px;
+}
+#frases1{
+    background-color: black;
+    padding-top: 55px;
+    padding-bottom: 70px;
+}
+
+#frases2{
+    background-color: black;
+    padding-top: 55px;
+    padding-bottom: 185px;    
+}
+
+#frases3{
+    background-color: black;
+    padding-top: 55px;
+    padding-bottom: 220px;
+}
+
+.titulo1{
+    color: orange;
+    font-family:Arial black, sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+.hist{
+    color: white;
+    font-family:Berlin Sans FB Demi, sans-serif;
+    font-size: 25px;
+    text-align: center;    
+}
+
+#curiosidades{
+    background-image: url(paisagem1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 55px;
+}
+
+.vinteum{
+    color: white;
+    font-family:Berlin Sans FB Demi, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    
+}
+
+@media only screen and (max-width: 600px) {
+  #fotostres {
+      align-items: center;
+  }
+}
+
+#teste{
+    background-image: url(fundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.testeum{
+    color: white;
+    font-family:Arial black, sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+h3{
+    background-color: black;
+    color: black;
+    text-align: center;
+}
+
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+    margin-top: 0;
+    background-color: aqua;
+}body {
+    position: relative;
+}
+
+.dropdown-toggle {
+    font-size: 25px;
+    font-family:Arial Black, sans-serif;
+    color: black;
+}
+.VideosAuto {
+    font-size: 25px; 
+    font-family:Arial Black, sans-serif;
+    color: black;
+}
+.Dep{
+    font-family:Arial black, sans-serif;
+}
+.Ans{
+    font-family:Arial black, sans-serif;
+}
+.TB{
+    font-family:Arial black, sans-serif;
+}
+.PS{
+    font-family:Arial black, sans-serif;
+}
+.FL{
+    font-family:Arial black, sans-serif;
+}
+.Com{
+    font-family:Arial black, sans-serif;
+}
+.Hos{
+    font-family:Arial black, sans-serif;
+}
+.um {
+    font-size: 20px;
+    font-family:Comic Sans MS, sans-serif;
+    text-align: left;
+}
+h1{
+    font-size: 30px; 
+    color: black; 
+    text-align: center;
+    font-family:Arial Black, sans-serif;
+}
+.dois{
+    font-size: 20px;
+    font-family:Comic Sans MS, sans-serif;
+}
+.tres{
+    font-size: 17px; 
+    font-family:Comic Sans MS, sans-serif;
+    text-align: justify;
+}
+.mer{
+    font-family:Arial black, sans-serif;
+}
+.quatro{
+    font-size: 25px;
+    font-family:Comic Sans MS, sans-serif;
+    text-align: center;
+}
+.cinco{
+    font-size: 17px;
+    font-family:Comic Sans MS, sans-serif;
+    text-align: justify;
+}
+.seis{
+    font-size: 17px; 
+    font-family:Comic Sans MS, sans-serif; 
+    text-align: center;
+}
+#coment {
+    padding-top: 55px;
+    min-height: auto;
+    height:100%; 
+    min-width: 5px;
+    width: 100%;
+}
+.sete{
+    font-size: 17px;
+    font-family:Comic Sans MS, sans-serif; 
+    text-align: center;
+}
+h2{
+    font-size: 30px;
+    color: red;
+    text-align: center;
+    font-family:Comic Sans MS, sans-serif;
+}
+#patrocinio{
+   padding-top: 55px;
+    min-height: auto;
+    height:100%; 
+    min-width: 5px;
+    width: 100%;
+    background-color: white;
+}
+
+.oito{
+    font-size: 20px;
+    font-family:Comic Sans MS, sans-serif; 
+    text-align: center;
+}
+.nove{
+    font-size: 15px;
+    font-family:Arial black, sans-serif; 
+    text-align: justify;
+}
+
+.dez{
+    border: 5px solid #F48804;
+    border-radius: 0;
+    -webkit-appearance: none;
+}
+
+.onze{
+    border: 5px solid #FF8000;
+    border-radius: 25px;
+    border-bottom-width: thick;
+    -webkit-appearance: none;
+    color: black;
+    min-width: inherit;
+}
+
+.treze{
+    background-color: orange;
+}
+
+.quinze{
+    color: white;
+    padding-top: 30px;
+}
+
+.dezesseis{
+    overflow:auto;
+}
+
+/*@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}*/
+
+#qualidade{
+    background-color: black;
+    padding-top: 55px;
+}
+
+.dezessete{
+    font-size: 15px;
+    font-family:Arial black, sans-serif; 
+    text-align: center;
+    background-image: url(carro111.jpg);
+    color: white;
+}
+
+#historia{
+    background-color: black;
+}
+
+.dezoito{
+    color: white;
+    text-align: center;
+    font-family:Arial black, sans-serif;
+}
+
+.vinte{
+    color: white;
+}
+
+#fotosdois{
+    background-image: url(carro3333.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 55px;
+}
+
+#videostres{
+    background-image: url(paisagem2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 55px;
+}
+
+.titulo{
+    color: black;
+}
+
+#fale{
+    background-image: url(paisagem.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 55px;
+}
+#frases1{
+    background-color: black;
+    padding-top: 55px;
+    padding-bottom: 70px;
+}
+
+#frases2{
+    background-color: black;
+    padding-top: 55px;
+    padding-bottom: 185px;    
+}
+
+#frases3{
+    background-color: black;
+    padding-top: 55px;
+    padding-bottom: 220px;
+}
+
+.titulo1{
+    color: orange;
+    font-family:Arial black, sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+.hist{
+    color: white;
+    font-family:Berlin Sans FB Demi, sans-serif;
+    font-size: 25px;
+    text-align: center;    
+}
+
+#curiosidades{
+    background-image: url(paisagem1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 55px;
+}
+
+.vinteum{
+    color: white;
+    font-family:Berlin Sans FB Demi, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    
+}
+
+@media only screen and (max-width: 600px) {
+  #fotostres {
+      align-items: center;
+  }
+}
+
+#teste{
+    background-image: url(fundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.testeum{
+    color: white;
+    font-family:Arial black, sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+h3{
+    background-color: black;
+    color: black;
+    text-align: center;
+}
+
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+    margin-top: 0;
+    background-color: aqua;
+}
